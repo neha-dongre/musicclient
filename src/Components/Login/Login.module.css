@@ -1,0 +1,69 @@
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signinContainer {
+  width: 460px;
+  padding: 30px;
+  border: 3px solid #d9d9d9;
+  line-height: 30px;
+  border-radius: 15px;
+}
+.form {
+  margin-top: 20px;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.signin {
+  font-size: 40px;
+  font-weight: 400;
+}
+.inputlabel {
+  font-weight: 300;
+  font-size: 15px;
+}
+.inputBox {
+  border: 2px solid #b6b6b6;
+  height: 37px;
+  border-radius: 5px;
+  padding-inline: 20px;
+}
+
+.continueBtn {
+  margin-top: 25px;
+  width: 100%;
+  padding: 10px;
+  background-color: #2e0052;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.privacyPolicy {
+  line-height: 18px;
+  padding: 20px 0px;
+}
+
+.privacyPolicy p {
+  font-weight: 10;
+  font-size: 14px;
+}
+
+.continueMessage {
+  line-height: 15px;
+  font-weight: 5;
+  margin-top: 30px;
+  font-size: 12px;
+}
+.userExists {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}

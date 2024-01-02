@@ -1,0 +1,15 @@
+.footer {
+  background-color: #2e0052;
+  padding: 17px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: auto;
+}
+
+.footer h5 {
+  display: inline;
+  font-weight: 100;
+  color: #fff;
+  font-size: 17px;
+}

@@ -1,0 +1,28 @@
+.backButton {
+  width: 200px;
+  padding: 9px;
+  background-color: var(--primary-colour);
+  font-size: 19px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  margin: 30px 100px;
+}
+.backArrow {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+  .backButton {
+    display: none;
+  }
+
+  .backArrow {
+    border: none;
+    display: block;
+  }
+  .backIcon {
+    font-size: 32px;
+    margin: 20px;
+  }
+}

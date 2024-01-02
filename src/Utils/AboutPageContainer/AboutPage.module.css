@@ -1,0 +1,30 @@
+.aboutPage {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 100px;
+}
+
+.pageName {
+  display: flex;
+}
+
+.pageName img {
+  height: 52px;
+  margin-top: auto;
+}
+
+.pageName h5 {
+  margin-left: 30px;
+  margin-bottom: 10px;
+  margin-top: auto;
+  font-size: 17px;
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+  .aboutPage {
+    display: none;
+  }
+}

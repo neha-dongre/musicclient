@@ -1,0 +1,15 @@
+.pageHeading h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 1;
+}
+.bagIcon {
+  font-size: 60px;
+}
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+  .container {
+    padding-inline: 0px;
+  }
+}

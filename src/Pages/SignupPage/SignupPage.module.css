@@ -1,0 +1,55 @@
+.loginPage {
+  display: flex;
+  flex-direction: column;
+}
+
+.newtoCart {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.newtoCart div {
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #bdbdbd;
+}
+.newtoCart div h5 {
+  text-align: center;
+  background-color: #fff;
+  display: inline;
+  padding: 0 25px;
+  margin-top: -10px;
+  font-weight: 10;
+}
+
+.createAcount {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.createAcount h5 {
+  border: 2px solid #bdbdbd;
+  padding: 13px;
+  width: 450px;
+
+  border-radius: 10px;
+  font-weight: 100;
+}
+
+.haveanAccount {
+  text-align: center;
+  padding: 17px;
+  font-size: 17px;
+}
+.haveanAccount h5 u {
+  font-weight: 1;
+  font-size: 18px;
+}
+
+@media (max-width: 499px) {
+  .createAcount h5 {
+    width: 400px;
+  }
+}

@@ -1,0 +1,156 @@
+.cartDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.priceDistribution {
+  display: flex;
+  margin: auto;
+  width: 90%;
+
+  justify-content: center;
+  padding: 10px 0px;
+}
+.priceDistribution .productImg {
+  width: 30%;
+  display: flex;
+  justify-content: end;
+}
+
+.purchaseInfo {
+  display: grid;
+  grid-template-columns: 3.5fr 1fr 1fr 1fr 5fr;
+  width: 70%;
+}
+
+/* .cartProductname .productName {
+  overflow-wrap: break-word;
+  max-width: 250px;
+} */
+
+.purchaseInfo .cartProductname {
+  font-size: 15px;
+}
+
+.purchaseInfo .productQuantity {
+}
+.purchaseInfo .productQuantity .quantityOptions {
+  border: 1px solid #bebebe;
+  width: 90%;
+}
+.purchaseInfo .productQuantity .quantityOptions option {
+  border-top: 1px solid #bebebe;
+}
+
+.cartProductname p {
+  color: #a2a2a2;
+}
+
+.priceDetail p {
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+}
+
+.priceDetail p span:nth-child(2) {
+  width: 150px;
+  display: flex;
+
+  justify-content: start;
+}
+
+.purchaseInfoMobile,
+.subtotalMobile {
+  display: none;
+}
+
+.subtotal {
+  display: grid;
+
+  font-size: 20px;
+}
+
+.subtotal > div {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+
+  justify-content: space-between;
+}
+
+.subtotal .totalcontainer {
+  display: grid;
+  grid-template-columns: 6fr 3fr 4fr;
+}
+
+.placeOrder {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+  padding-right: 130px;
+  margin-bottom: 20px;
+}
+
+.emptyCart {
+  text-align: center;
+  margin: 50px;
+  color: var(--primary-colour);
+}
+
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+  .purchaseInfo,
+  .subtotal {
+    display: none;
+  }
+  .priceDistribution {
+    background-color: #dbdbdb;
+  }
+  .priceDistribution {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    border: 2px solid black;
+    justify-content: center;
+    padding: 10px 0px;
+  }
+  .priceDistribution .productImg {
+    width: auto;
+    display: flex;
+    justify-content: end;
+  }
+
+  .purchaseInfoMobile {
+    display: block;
+    margin-left: -23px;
+    margin-top: 20px;
+    line-height: 25px;
+  }
+  .purchaseInfoMobile h3 {
+    font-weight: 1;
+  }
+  .purchaseInfoMobile .price {
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  .subtotalMobile {
+    display: flex;
+    justify-content: start;
+  }
+  .subtotalMobile h4 {
+    width: 300px;
+    display: flex;
+    padding-inline: 30px;
+    font-size: 20px;
+    justify-content: start;
+  }
+  .placeOrder {
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-right: 0px;
+  }
+}

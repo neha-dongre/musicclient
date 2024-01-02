@@ -1,0 +1,28 @@
+:root {
+  --primary-colour: #2e0052;
+  --secondary-colour: #c8c8c8;
+  --white: #ffffff;
+  --green: #1d7000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto";
+}
+
+html,
+#root,
+body {
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}

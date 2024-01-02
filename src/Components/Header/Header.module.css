@@ -1,0 +1,55 @@
+.header {
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-colour);
+  color: var(--white);
+}
+.phoneNumber h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.callIcon {
+  font-size: 25px;
+  margin-right: 13px;
+}
+
+.shopNow {
+  display: flex;
+}
+.shopNow p {
+  padding: 5px 15px;
+}
+.shopNow p:nth-child(2) {
+  border-left: 2px solid var(--white);
+}
+
+.register button {
+  color: var(--white);
+  font-size: 19px;
+  padding-inline: 13px;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+}
+.register .signup {
+  border-left: 2px solid var(--white);
+}
+.mobHeader {
+  display: none;
+}
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+  .header {
+    display: none;
+  }
+  .mobHeader {
+    display: block;
+  }
+  .mobHeader {
+    padding: 10px;
+    background-color: var(--primary-colour);
+  }
+}

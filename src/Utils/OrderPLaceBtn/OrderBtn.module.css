@@ -1,0 +1,23 @@
+.orderbutton {
+  border: none;
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: #ffd600;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+  .orderbutton {
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-bottom: 50px;
+    background-color: #ffd600;
+  }
+}

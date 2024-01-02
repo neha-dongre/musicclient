@@ -1,0 +1,10 @@
+.cartImg {
+  padding: 10px;
+}
+.cartImg img {
+  margin-right: 20px;
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+}

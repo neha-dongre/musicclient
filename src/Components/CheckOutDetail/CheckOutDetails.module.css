@@ -1,0 +1,159 @@
+.columnCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.checkOutdetail {
+  margin-top: 35px;
+}
+
+.checkoutRows {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+}
+/* .checkoutRows > div {
+  padding: 10px;
+  border: 1px solid red;
+} */
+.checkoutRows .sectionHeading {
+  color: #b52b00;
+  font-weight: bold;
+}
+.userAddress,
+.paymentMethod {
+  color: #797979;
+}
+
+.orderSummery h3 {
+  margin-bottom: 20px;
+}
+.orderSummery h4 {
+  display: flex;
+  justify-content: space-between;
+}
+.orderSummery h4 span {
+  width: 150px;
+  color: #797979;
+}
+
+.delivery {
+  display: flex;
+  flex-direction: column;
+}
+
+.delivery p {
+  color: #797979;
+}
+.delivery h3,
+p,
+h4 {
+  text-align: start;
+}
+
+.productVerification .delivery {
+  display: flex;
+  justify-content: center;
+}
+
+.finalOrder div:first-child {
+  margin-right: 30px;
+}
+
+.orderTotal,
+.orderTotalFinal {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  color: #b52b00;
+  margin-top: 30px;
+}
+.orderTotalFinal span {
+  margin-right: 100px;
+}
+.orderTotal span:nth-child(2) {
+  padding: 0 80px;
+}
+.finalOrder {
+  display: flex;
+  margin: 50px 100px;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+  .checkOutdetail {
+    margin-top: 35px;
+  }
+
+  .checkoutRows {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  /* .checkoutRows > div {
+    padding: 10px;
+    border: 1px solid red;
+  } */
+  .checkoutRows .sectionHeading {
+    color: #b52b00;
+
+    font-weight: bold;
+  }
+  .userAddress,
+  .paymentMethod {
+    color: #797979;
+  }
+  .orderSummery h3 {
+    margin-bottom: 20px;
+  }
+  .orderSummery h4 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .orderSummery h4 span {
+    width: 150px;
+    color: #797979;
+  }
+
+  .delivery {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .delivery p {
+    color: #797979;
+  }
+  .delivery h3,
+  p,
+  h4 {
+    display: inline;
+  }
+
+  .finalOrder div:first-child {
+    margin-right: 30px;
+  }
+
+  .orderTotal {
+    display: flex;
+    justify-content: space-between;
+    color: #b52b00;
+  }
+
+  .orderTotalFinal {
+    display: none;
+    justify-content: space-between;
+    color: #b52b00;
+  }
+
+  .orderTotal span {
+    font-weight: bolder;
+  }
+  .finalOrder {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 100px;
+  }
+
+  .finalOrder div:nth-child(2) p {
+    display: none;
+  }
+}

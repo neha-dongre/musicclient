@@ -1,0 +1,256 @@
+.page {
+  padding-inline: 100px;
+}
+
+.searchArea {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 70px;
+}
+.searchConsole {
+  width: 100%;
+  border-radius: 1000px;
+  height: 50px;
+  padding-inline: 40px;
+  font-size: 22px;
+  border: 3px solid var(--secondary-colour);
+}
+
+.searchIcon {
+  position: absolute;
+  top: 24%;
+  left: 1%;
+  font-size: 27px;
+  color: var(--secondary-colour);
+}
+
+.productArea {
+  margin-top: 50px;
+  /* border: 3px solid red; */
+  height: 60px;
+  overflow-x: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.viewOption {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.viewtype {
+  font-size: 30px;
+  margin: 7px;
+}
+
+.filters {
+  display: flex;
+}
+
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  width: 100%;
+}
+
+/* offer section start*/
+.offerContainer {
+  margin-top: 100px;
+}
+
+.specialOffer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  height: 280px;
+  position: relative;
+  background-image: linear-gradient(90deg, #7286b4, #e794ce);
+}
+.specialOffer span {
+  font-size: 50px;
+  padding-left: 50px;
+  margin-top: -50px;
+  color: var(--primary-colour);
+}
+.specialOffer img {
+  position: absolute;
+  height: 330px;
+  bottom: 0;
+  right: 0;
+}
+.offerButton {
+  position: absolute;
+  bottom: 10%;
+  left: 3.5%;
+  border: none;
+  width: 160px;
+  font-size: 18px;
+  background-color: var(--primary-colour);
+  color: white;
+  border-radius: 1000px;
+  padding: 12px 12px;
+}
+
+/* offer section end*/
+
+/* home content */
+
+.productArea {
+  overflow: visible;
+}
+
+.productContainer {
+  margin-top: 35px;
+  z-index: 0;
+}
+
+.absentProduct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  color: var(--primary-colour);
+}
+
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+  .aboutPage,
+  .viewOption {
+    display: none;
+  }
+  .offerContainer {
+    margin-top: 40px;
+  }
+  .page {
+    padding-inline: 15px;
+  }
+  .productArea {
+    overflow-y: scroll;
+  }
+  .searchArea {
+    margin-top: 20px;
+  }
+  .specialOffer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    height: 170px;
+    position: relative;
+    background-image: linear-gradient(90deg, #7286b4, #e794ce);
+  }
+
+  .specialOffer span {
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 50px;
+    margin-top: -50px;
+    color: var(--primary-colour);
+  }
+  .specialOffer img {
+    position: absolute;
+    height: 220px;
+    bottom: 0;
+    right: 0;
+  }
+
+  .offerButton {
+    position: absolute;
+    bottom: 20%;
+    left: 10.5%;
+    border: none;
+    width: 100px;
+    font-size: 12px;
+    background-color: var(--primary-colour);
+    color: white;
+    border-radius: 1000px;
+    padding: 5px 12px;
+  }
+  .productArea {
+    height: auto;
+    padding: 10px 0;
+    overflow-x: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .absentProduct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: var(--primary-colour);
+  }
+}
+
+@media only screen and (max-width: 420px) and (min-width: 300px) {
+  .aboutPage,
+  .viewOption {
+    display: none;
+  }
+  .offerContainer {
+    margin-top: 40px;
+  }
+  .page {
+    padding-inline: 15px;
+  }
+  .productArea {
+    overflow-y: scroll;
+  }
+  .searchArea {
+    margin-top: 20px;
+  }
+  .specialOffer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    height: 150px;
+    position: relative;
+    background-image: linear-gradient(90deg, #7286b4, #e794ce);
+  }
+
+  .specialOffer span {
+    font-size: 15px;
+    font-weight: bolder;
+    padding-left: 20px;
+    margin-top: -20px;
+    color: var(--primary-colour);
+  }
+  .specialOffer img {
+    position: absolute;
+    height: 180px;
+    bottom: 0;
+    right: 0;
+  }
+
+  .offerButton {
+    position: absolute;
+    bottom: 20%;
+    left: 4.5%;
+    border: none;
+    width: 100px;
+    font-size: 12px;
+    background-color: var(--primary-colour);
+    color: white;
+    border-radius: 1000px;
+    padding: 5px 12px;
+    transform: scale(0.8);
+  }
+  .productArea {
+    height: auto;
+    padding: 10px 0;
+    overflow-x: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .absentProduct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: var(--primary-colour);
+  }
+}
