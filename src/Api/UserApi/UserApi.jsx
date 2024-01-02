@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BaseUrl = import.meta.env.VITE_BASE_URL;
+const BaseUrl = import.meta.env.VITE_REACT_APP_BASE_URL;
 
 export const Register = async (userData) => {
   try {
